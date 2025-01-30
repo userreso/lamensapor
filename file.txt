@@ -1,0 +1,13 @@
+
+ create a ecommerce website for food resturant name it lumen sapor cafe organize folders files create it and add home, shop, single product, cart sidebar, my account, checkout, cart, contact, blog Build a responsive, pixel-perfect website using Next.js, based on Figma templates 3 and 7, with dynamic content managed through Sanity CMS. The website must include sign-in/sign-out functionality, dynamic product data fetching via APIs, inventory and price updates, and shipment tracking integration using APIs like AliExpress, EasyPost, or Shippo. Ensure input validation and sanitization to prevent security vulnerabilities, and securely manage API keys using environment variables. Host the website on Vercel, push the code to GitHub, and provide the hosted link and repository URL. Focus on frontend functionality for an e-commerce platform; authentication and payment integration are not required.
+
+
+
+
+Set up Sanity CMS and create content schemas
+Implement authentication with NextAuth.js
+Create API routes for product management
+Set up environment variables for API keys
+Build the remaining pages and components
+Style your components with Tailwind CSS
+Add shipping integration with your chosen API

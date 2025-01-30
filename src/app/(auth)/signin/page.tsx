@@ -27,11 +27,11 @@ export default function SignInPage() {
       } else {
         router.push('/account')
       }
-    } catch (error) {
+    } catch (error: unknown) {
       setError('An error occurred during sign in')
+      console.error(error)
     }
   }
-
   return (
     <div className="container mx-auto px-4 py-16">
       <div className="max-w-md mx-auto">
@@ -84,7 +84,7 @@ export default function SignInPage() {
         </form>
 
         <p className="mt-4 text-center text-text-light">
-          Don't have an account?{' '}
+          Don&apos;t have an account?{' '}
           <Link href="/signup" className="text-primary hover:text-primary-dark">
             Sign Up
           </Link>
